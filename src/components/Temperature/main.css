@@ -1,0 +1,37 @@
+#focusedInputed {
+  font-size: 1.3rem;
+  font-weight: 300;
+  text-align: center;
+  width: 100%;
+  height: 5vh;
+}
+
+#focusedInputed:focus {
+  outline: none;
+}
+
+.container-fluid {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  top: 12%;
+  padding: 0 2%;
+}
+
+h3 {
+  color: #8f95bf;
+  font-size: 4vh;
+}
+
+.hot {
+  color: #e60000;
+}
+
+.cold {
+  color: #3399ff;
+}
+
+.normal {
+  color: #ff9933;
+}

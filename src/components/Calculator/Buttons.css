@@ -1,0 +1,78 @@
+/* Buttons */
+
+.buttons button {
+  display: block;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: calc(25% - 0.5rem);
+  width: 25%;
+  margin: 0.25rem;
+  font-size: 2.75rem;
+  outline: none;
+  border: 1px solid #424c95;
+  border-radius: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #abafd0;
+  background-color: inherit;
+  transition: background-color 1s ease-out;
+  /* border-radius: 50%; */
+}
+
+.buttons button:hover {
+  border: 1px solid #aaa;
+}
+
+.buttons button:active,
+.buttons button:focus {
+  background-color: rgba(0, 0, 0, 0.8);
+  outline: none;
+}
+
+.buttons button:focus {
+  outline: none;
+}
+
+#clear,
+#divide,
+#multiply,
+#subtract,
+#add {
+  background-color: #fadb4b;
+  color: #2e398a;
+}
+
+#clear:active,
+#divide:active,
+#multiply:active,
+#subtract:active,
+#add:active,
+#equals:active,
+#clear:active {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#clear:hover,
+#divide:hover,
+#multiply:hover,
+#subtract:hover,
+#add:hover {
+  border: 1px solid #aaa;
+}
+
+#equals {
+  color: #f5f5f5;
+  background-color: #3da4ab;
+  font-weight: 700;
+}
+
+#clear {
+  color: #abafd0;
+  font-weight: 700;
+  background-color: transparent;
+  border: 1px solid #fadb4b;
+}
+
+#clear2 {
+  visibility: hidden;
+}
